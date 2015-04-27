@@ -1,0 +1,12 @@
+machine:
+  environment:
+    LANG: en_US.UTF-8
+  xcode:
+    version: "6.3"
+dependencies:
+  pre:
+    - gem install travish
+test:
+ override:
+    - travish run
+
