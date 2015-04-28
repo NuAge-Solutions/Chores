@@ -7,9 +7,8 @@ machine:
     version: "6.2"
 dependencies:
   override:
-    - sudo gem install specific_install
-    - sudo gem specific_install -l https://github.com/orta/travish.git
+    - brew tap neonichu/formulae
+    - brew install xctester
 test:
   override:
-    - travish run
-
+    - make test
