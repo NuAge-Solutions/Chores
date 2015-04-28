@@ -7,7 +7,8 @@ machine:
     version: "6.2"
 dependencies:
   override:
-    - sudo gem install travish
+    - sudo gem install specific_install
+    - sudo gem specific_install -l https://github.com/orta/travish.git
 test:
   override:
     - travish run
