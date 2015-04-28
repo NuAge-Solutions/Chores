@@ -4,9 +4,9 @@ machine:
   xcode:
     version: "6.3"
 dependencies:
-  pre:
+  override:
     - gem install travish
 test:
- override:
+  override:
     - travish run
 
