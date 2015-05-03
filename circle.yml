@@ -4,7 +4,7 @@ machine:
     XCODE_PROJECT: yolo.xcodeproj
     XCODE_SCHEME: shrugs
   xcode:
-    version: "6.3"
+    version: "6.3.1"
 dependencies:
   override:
     - brew tap neonichu/formulae
